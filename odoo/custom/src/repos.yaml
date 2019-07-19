@@ -145,13 +145,3 @@
         sdi $ODOO_VERSION
     merges:
         - sdi $ODOO_VERSION
-
-./connector-telephony:
-    defaults:
-        depth: $DEPTH_DEFAULT
-    remotes:
-        oca: https://github.com/OCA/connector-telephony.git
-    target:
-        oca $ODOO_VERSION
-    merges:
-        - oca $ODOO_VERSION
