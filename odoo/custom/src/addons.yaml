@@ -28,5 +28,3 @@ social:
  - "*"
 sdi-addons:
  - "*"
-connector-telephony:
- - "*"
